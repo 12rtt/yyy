@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net">
+  <diagram name="Use Case Diagram">
+    <mxGraphModel dx="1600" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="800" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- Actors -->
+        <mxCell id="client" value="Client" style="shape=actor;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="140" width="50" height="100" as="geometry" />
+        </mxCell>
+
+        <mxCell id="administrator" value="Administrator" style="shape=actor;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="300" width="50" height="100" as="geometry" />
+        </mxCell>
+
+        <!-- Use Cases -->
+        <mxCell id="create_account" value="Create Account" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="submit_claim" value="Submit Claim" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="view_policy" value="View Policy Details" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="track_status" value="Track Request Status" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- Connections -->
+        <mxCell id="connect1" edge="1" parent="1" source="client" target="create_account">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="connect2" edge="1" parent="1" source="client" target="submit_claim">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="connect3" edge="1" parent="1" source="client" target="view_policy">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="connect4" edge="1" parent="1" source="client" target="track_status">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="connect5" edge="1" parent="1" source="administrator" target="create_account">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="connect6" edge="1" parent="1" source="administrator" target="submit_claim">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="connect7" edge="1" parent="1" source="administrator" target="view_policy">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="connect8" edge="1" parent="1" source="administrator" target="track_status">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
+
