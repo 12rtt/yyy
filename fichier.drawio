@@ -1,71 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mxfile host="app.diagrams.net">
-  <diagram name="Use Case Diagram">
-    <mxGraphModel dx="1600" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="800" math="0" shadow="0">
+  <diagram name="Page-1">
+    <mxGraphModel dx="1242" dy="655" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-
-        <!-- Actors -->
-        <mxCell id="client" value="Client" style="shape=actor;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="40" y="140" width="50" height="100" as="geometry" />
+        <mxCell id="0" value="" style="group" vertex="1" connectable="0">
+          <mxGeometry x="0" y="0" width="100%" height="100%" as="geometry"/>
         </mxCell>
-
-        <mxCell id="administrator" value="Administrator" style="shape=actor;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="40" y="300" width="50" height="100" as="geometry" />
+        <mxCell id="1" value="" style="group" vertex="1" connectable="0">
+          <mxGeometry width="100%" height="100%" as="geometry"/>
         </mxCell>
-
-        <!-- Use Cases -->
-        <mxCell id="create_account" value="Create Account" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="200" y="140" width="120" height="60" as="geometry" />
+        <mxCell id="2" value="Health Insurance Management Requests" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#C0D9D9;strokeColor=#A6C0C0;align=center;verticalAlign=middle;spacing=10;" vertex="1" connectable="0">
+          <mxGeometry x="0.5" y="0.5" width="150" height="60" as="geometry" relative="1"/>
         </mxCell>
-
-        <mxCell id="submit_claim" value="Submit Claim" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="200" y="240" width="120" height="60" as="geometry" />
+        <mxCell id="3" value="Create Account" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#B0D9D9;strokeColor=#A0C0C0;align=center;verticalAlign=middle;spacing=10;" vertex="1" connectable="1">
+          <mxGeometry x="0.2" y="0.2" width="120" height="50" as="geometry"/>
         </mxCell>
-
-        <mxCell id="view_policy" value="View Policy Details" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="200" y="340" width="120" height="60" as="geometry" />
+        <mxCell id="4" value="Submit Request" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#B0D9D9;strokeColor=#A0C0C0;align=center;verticalAlign=middle;spacing=10;" vertex="1" connectable="1">
+          <mxGeometry x="0.2" y="0.4" width="120" height="50" as="geometry"/>
         </mxCell>
-
-        <mxCell id="track_status" value="Track Request Status" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="200" y="440" width="120" height="60" as="geometry" />
+        <mxCell id="5" value="Insurance Agent" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#A0D0D9;strokeColor=#90C0C0;align=center;verticalAlign=middle;spacing=10;" vertex="1" connectable="1">
+          <mxGeometry x="0.5" y="0.2" width="120" height="50" as="geometry"/>
         </mxCell>
-
-        <!-- Connections -->
-        <mxCell id="connect1" edge="1" parent="1" source="client" target="create_account">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="6" value="Administrator" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#A0D0D9;strokeColor=#90C0C0;align=center;verticalAlign=middle;spacing=10;" vertex="1" connectable="1">
+          <mxGeometry x="0.8" y="0.2" width="120" height="50" as="geometry"/>
         </mxCell>
-
-        <mxCell id="connect2" edge="1" parent="1" source="client" target="submit_claim">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="7" value="Medical Provider" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D9E0E0;strokeColor=#C0D0D0;align=center;verticalAlign=middle;spacing=10;" vertex="1" connectable="1">
+          <mxGeometry x="0.2" y="0.6" width="120" height="50" as="geometry"/>
         </mxCell>
-
-        <mxCell id="connect3" edge="1" parent="1" source="client" target="view_policy">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="8" value="Banking System" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D9E0E0;strokeColor=#C0D0D0;align=center;verticalAlign=middle;spacing=10;" vertex="1" connectable="1">
+          <mxGeometry x="0.5" y="0.6" width="120" height="50" as="geometry"/>
         </mxCell>
-
-        <mxCell id="connect4" edge="1" parent="1" source="client" target="track_status">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="9" value="Reports" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D9E0E0;strokeColor=#C0D0D0;align=center;verticalAlign=middle;spacing=10;" vertex="1" connectable="1">
+          <mxGeometry x="0.8" y="0.6" width="120" height="50" as="geometry"/>
         </mxCell>
-
-        <mxCell id="connect5" edge="1" parent="1" source="administrator" target="create_account">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.33;exitY=0.67;exitDx=0;exitDy=0" edge="1" source="2" target="3">
+          <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-
-        <mxCell id="connect6" edge="1" parent="1" source="administrator" target="submit_claim">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.33;exitY=0.8;exitDx=0;exitDy=0" edge="1" source="2" target="4">
+          <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-
-        <mxCell id="connect7" edge="1" parent="1" source="administrator" target="view_policy">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.66;exitY=0.67;exitDx=0;exitDy=0" edge="1" source="5" target="3">
+          <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-
-        <mxCell id="connect8" edge="1" parent="1" source="administrator" target="track_status">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.66;exitY=0.8;exitDx=0;exitDy=0" edge="1" source="5" target="4">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.8;exitY=0.5;exitDx=0;exitDy=0" edge="1" source="6" target="9">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.8;exitY=0.2;exitDx=0;exitDy=0" edge="1" source="7" target="3">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.8;exitY=0.8;exitDx=0;exitDy=0" edge="1" source="7" target="6">
+          <mxGeometry relative="1" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
 </mxfile>
+
 
